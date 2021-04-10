@@ -87,12 +87,12 @@ main .main-logo {
 }
 
 main .main-logo img {
-  width: 300px;
+  width: 280px;
 }
 
 main .main-input {
   margin: 0 auto;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
   width: 530px;
 }
 
@@ -147,7 +147,7 @@ main .main-buttons button {
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
-  color: #3c4043;
+  color: #898e92;
   cursor: pointer;
   font-size: 14px;
   height: 36px;
@@ -160,4 +160,41 @@ main .main-buttons button:hover {
   background-color: #f8f9fa;
   border: 1px solid #dadce0;
   color: #202124;
+}
+
+footer {
+  align-items: center;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dadce0;
+  bottom: 0;
+  display: grid;
+  font-size: 14px;
+  grid-template-columns: 1fr 1fr;
+  height: 50px;
+  position: absolute;
+  width: 100%;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  margin: 10px;
+  padding-left: 0;
+}
+
+footer .footer-left {
+  justify-self: left;
+}
+
+footer .footer-right {
+  justify-self: right;
+}
+
+footer li a {
+  color: #898e92;
+  margin: 10px;
+}
+
+footer li a:hover {
+  text-decoration: underline;
 }
