@@ -74,3 +74,40 @@ nav .avatar img {
   border-radius: 50%;
   height: 32px;
 }
+
+main {
+  margin-top: 150px;
+  text-align: center;
+}
+
+main .main-logo {
+  margin: 0 auto;
+  margin-bottom: 35px;
+  width: 530px;
+}
+
+main .main-logo img {
+  width: 300px;
+}
+
+main .main-input {
+  margin: 0 auto;
+  margin-bottom: 35px;
+  width: 530px;
+}
+
+main .main-input-container {
+  align-items: center;
+  border: 1px solid #dfe1e5;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  width: 525px;
+}
+
+main .main-input input {
+  border: none;
+  height: 40px;
+  outline: none;
+  width: 450px;
+}
