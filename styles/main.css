@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+  align-items: center;
+  display: flex;
+  height: auto;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+  width: 227px;
+}
+
+header nav .nav-right-section a {
+  color: #000000;
+  margin-right: 1rem;
+}
+
+header nav .nav-right-media a {
+  margin-right: 0;
+}
+
+.nav-right-section section {
+  align-items: center;
+  display: flex;
+}
+
+.nav-right-section .nav-right-text {
+  margin-bottom: 2px;
+}
+
+.nav-right-text a:hover {
+  text-decoration: underline;
+}
+
+nav .nav-right-section .menu-icon {
+  background-image: url("/assets/dots-menu.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #5f6368;
+  cursor: pointer;
+  height: 16px;
+  margin-bottom: 1px;
+  margin-right: 22px;
+  width: 16px;
+}
+
+nav .avatar {
+  margin: 0;
+  margin-right: 20px;
+}
+
+nav .avatar img {
+  border-radius: 50%;
+  height: 32px;
+}
